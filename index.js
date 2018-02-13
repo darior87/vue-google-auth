@@ -17,7 +17,7 @@
       Vue.prototype.$googleAuth = googleAuth
 
       if (typeof options === 'object') {
-        config = options
+        config = Object.assign({ scope: 'profile email https://www.googleapis.com/auth/plus.login' }, options)
       }
     }
   }
@@ -52,7 +52,7 @@
             errorCallback(error)
           })
         } else {
-          window.gapi.auth2.getAuthInstance().grantOfflineAccess(config).then(function (response) {
+          window.gapi.auth2.getAuthInstance().grantOfflineAccess({'redirect_uri': 'postmessage'}).then(function (response) {
             successCallback(response.code)
           }, function (error) {
             errorCallback(error)
