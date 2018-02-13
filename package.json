@@ -1,14 +1,14 @@
 {
-  "name": "vue-google-auth",
-  "version": "1.0.4",
-  "description": "Handling Google sign-in and sign-out",
+  "name": "vue-google-authentication",
+  "version": "1.0.0",
+  "description": "Handling Google sign-in and sign-out with scope",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simmatrix/vue-google-auth.git"
+    "url": "git+https://github.com/darior87/vue-google-auth"
   },
   "keywords": [
     "vue",
@@ -20,10 +20,10 @@
     "login",
     "logout"
   ],
-  "author": "Simmatrix Labs",
+  "author": "darior87 <darior87@yahoo.it>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/simmatrix/vue-google-auth/issues"
+    "url": "https://github.com/darior87/vue-google-auth/issues"
   },
-  "homepage": "https://github.com/simmatrix/vue-google-auth#readme"
+  "homepage": "https://github.com/darior87/vue-google-auth#readme"
 }

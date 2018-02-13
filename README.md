@@ -1,4 +1,4 @@
-#clone of
+# clone of
 [simmatrix/vue-google-auth](https://github.com/simmatrix/vue-google-auth).
 
 # vue-google-auth
